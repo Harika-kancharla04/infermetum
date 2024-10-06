@@ -1,0 +1,21 @@
+<div class="container">
+    <img src="https://www.infermentum.it/_upload/_middle/1695294979.3627_biscotti-tutti-gusti-hover.png" alt="" class="one">
+    <img src="https://www.infermentum.it/_upload/_middle/1693898331.184_Il-Biscotto-Frollino_(600x600).png" alt="" class="two">
+</div>
+.container{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.two{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.container:hover .two{
+    display: block;
+}
+.container:hover .one{
+    display: none;
+}

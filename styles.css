@@ -1,0 +1,170 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    
+}
+body{
+    font-family: 'ITC Avant Garde Gothic Std Book';
+}
+.logo{
+    flex:1;
+}
+.navlinks{
+    flex:1;
+}
+a{
+    padding-right: 40px;
+}
+.container{
+    width:58%;
+    background-color: #fe675d;
+    height: 100vh;
+    margin-bottom: 0;
+}
+.cookie1{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.parent{
+    display: flex;
+    margin-bottom: 0;
+    
+}
+.container2{
+    width:42%;
+    margin: 100px 100px 0px 100px;
+    height: 80vh;
+}
+.container2 p{
+    font-size: large;
+    width:450px;
+}
+.container2 h1{
+    font-size: 60px;
+    margin: 15px 0px;
+}
+.div1{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
+.bgatch{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(https://www.infermentum.it/_upload/_big/1713362537.3386_Il_Biscotto-Muscovado-e-Cannella_Taglio-per-sito.jpg);
+}
+.container3{
+    display: flex;
+    background-color: #fff0e0;
+    
+}
+.cont3-left{
+    width: 35%;
+    margin: 5%;
+}
+.cont3-right{
+    width:50%;
+    margin-top: 150px;
+
+}
+.cookie2 img{
+    height: 450px;
+    width: 550px;
+    margin-left: 100px;
+}
+.trow{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.cont3-left-up h2{
+    font-size: 54px;
+}
+.cont3-left-up1{
+    margin:10px 0px;
+
+}
+.cont3-left-up1 h4{
+    margin-bottom: 10px;
+}
+.cont-left-down{
+    margin-top: 20px;
+}
+.foot{
+    margin-top: 20px;
+    display: flex;
+}
+.foot span{
+    display: block;
+    font-family:  'ITC Avant Garde Gothic Std Book';
+    margin-top: 6px;
+    color: rgb(69, 68, 68);
+    
+}
+.foot .left{
+    margin-right: 50px;
+}
+.container4{
+    text-align: center;
+}
+.container4 h2{
+    font-size: 54px;
+    margin-top: 70px;
+}
+.container4 p{
+    margin:20px 20%;
+}
+.cont5-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.single{
+    position: relative;
+    max-height: 180px;
+    max-width: 100px;
+    display: inline-block;
+}
+.single:hover{
+    cursor: pointer;
+}
+.img12{
+    display: none;
+    width: 211px;
+    height: 190px;
+    position: absolute;
+}
+.img11{
+    width: 211px;
+    height:190px ;
+}
+.img1:hover .img11{
+    display: none;
+}
+.img1:hover .img12{
+    display: block;
+}
